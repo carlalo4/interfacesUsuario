@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
+
 <body>
-    
+    <h1>Rellene este formulario: </h1>
+   <form>
+       <p>
+        Nombre: <input type= "text" name="nombre" title="Introduzca su nombre" autocomplete="name" >
+       </p>
+       
+       <p>
+        Primer Apellido: <input type= "text" name="primerApellido" title="Introduzca su primer apellido" autocomplete="family-name" >
+       </p>
+       
+       <p>
+        Fecha de nacimiento: <input type= "date" name="fechaNacimiento" title="Introduzca su fecha de nacimiento" autocomplete="bday" >
+       </p>
+
+       <p>
+        Email: <input type= "email" name="email" required = "required" title="Introduzca su email" autocomplete="email" >
+       </p>
+
+       <p>
+        Teléfono: <input type= "tel" name="telefono" title="Introduzca su teléfono" autocomplete="tel" >
+       </p>
+
+       <p>
+        Contraseña: <input type= "password" required="required" name="contraseña" title="Introduzca su contraseña" >
+       </p>
+
+       <p>
+        Color: <input type= "color" name="color"  title="Introduzca su color favorito" >
+       </p>
+
+       <p>
+           <input type="submit" value="Enviar">
+       </p>
+
+   </form>
 </body>
 </html>
